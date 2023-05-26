@@ -1,0 +1,85 @@
+body{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+img{
+  width: 50px;
+  height: 40px;
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 50%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo h1{
+  margin-left: 20px;
+}
+.container{
+  margin: 50px auto;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 60%;
+  background-color: #e6e6e6;
+}
+.input-data{
+  width: 50%;
+  margin: 20px 24%;
+  border: 0px;
+  border-radius: 2px;
+  padding: 5px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 150px;
+}
+.humidity-wind{
+  display: flex;
+  justify-content: space-between;
+}
+.temprature{
+  text-align: center;
+  font-size: 100px;
+  margin: 0px;
+}
+.city-name{
+  text-align: center;
+  font-size: 65px;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  left: 119px;
+}
+.weather{
+  text-align: center;
+    font-size: 26px;
+    margin: 0px;
+}
+.humidity>h4{
+  margin-bottom: 0px
+}
+.humidity>p{
+  margin: 0px;
+}
+.wind>h4{
+  margin-bottom: 0px;
+}
+.wind>p{
+  margin: 0px;
+}
+.error{
+  margin: 20px auto;
+  font-size: 30px;
+  text-align: center;
+}
